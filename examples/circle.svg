@@ -1,0 +1,12 @@
+<!-- initialization of svg tag with size of canvas and namespace -->
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- draw background as full size rect, fill=blue -->
+  <rect width="100%" height="100%" fill="blue" />
+
+  <!-- draw shape on top > different params for each shape -->
+  <rect x="75" y="25" width="150" height="150" fill="green" />
+
+  <!-- draw text on top of shape anchor to middle of placement pos -->
+  <text x="100" y="120" font-size="60" anchor="center" fill="red">SVG</text>
+</svg>

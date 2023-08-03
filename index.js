@@ -1,2 +1,5 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+const CLI = require('./lib/cli.js');
+
+const cli = new CLI();
+
+cli.run();
